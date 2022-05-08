@@ -1,0 +1,111 @@
+header {
+    background-color: rgb(167, 121, 23);
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-size: 42px;
+    width: 320px;
+    margin: 20px;
+    font-family: 'dancing script';
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 6px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(../images/barbearia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+ul {
+    padding: 20px;
+    display: flex;
+}
+li {
+    list-style: none;
+    padding: 15px;
+    background-color: rgb(167, 121, 23);
+    margin: 5px;
+    border-radius: 5px;
+}
+li:hover {
+    background-color: #000;
+}
+li a {
+    text-decoration: none;
+    color: rgb(228, 226, 226);
+}
+.bar1 {
+    height: 10px;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.bar2 {
+    height: 1px;
+    width: 90%;
+    background-color: rgb(146, 145, 145);
+    border-radius: 2px;
+}
+section {
+    background: -webkit-linear-gradient(90deg, rgb(146, 145, 145),rgb(12, 12, 12));
+    height: auto;
+    color: #fff;
+}
+.title {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+h1 {
+    padding: 5px;
+    margin: 7px;
+    font-weight: normal;
+    background-color: rgb(167, 121, 23);
+    border-radius: 5px;
+}
+p {
+    margin-left: 40px;
+    font-size: 17px;
+}
+.div_services,
+.div_product {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.services,
+.product {
+    background-color: rgb(34, 34, 34);
+    padding: 15px;
+    margin: 30px;
+    width: 150px;
+    border-radius: 5px;
+}
+.bar_1 {
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.bar_2 {
+    height: 1px;
+    width: 95%;
+    background-color: rgb(75, 74, 74);
+    border-radius: 2px;
+}
+footer {
+    margin-top: 15px;
+    padding: 10px;
+    color: rgb(75, 74, 74);
+}
+p a {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+p a:hover {
+    color: #fff;
+}
